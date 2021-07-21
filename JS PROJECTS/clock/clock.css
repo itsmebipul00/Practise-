@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.clock{
+    width: 30rem;
+    height: 30rem;
+    border: 1rem solid black;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    transform: (-90deg);
+}
+
+.hand{
+    width: 50%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform: rotate(90deg);
+    /* change position of transformed elements */
+    transform-origin: 100%; 
+    transition: all 0.05s;
+}

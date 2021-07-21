@@ -1,0 +1,20 @@
+{
+  "name": "mailing-list",
+  "version": "1.0.0",
+  "description": "Mailing list /Nodejs",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "sib-api-v3-sdk": "^8.2.0"
+  },
+  "author": "Bipul",
+  "license": "MIT"
+}
